@@ -1,0 +1,23 @@
+.container{
+    justify-content: space-around;
+  
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+}
+a{
+    color: white;
+    text-decoration: none;
+
+    
+}
+@media (max-width:768px) {
+    .container{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
